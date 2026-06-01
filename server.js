@@ -22,7 +22,6 @@ app.get('/', (req, res) =>{
 })
 
 
-
 // tratamento generico de erro
 app.use((err, req, res, next) => {
     console.log(err);
