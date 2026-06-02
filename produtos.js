@@ -37,6 +37,10 @@ router.get('/:id', (req, res) => {
        res.json(produto);
 });
 
+router.get('/', (req, res) => {
+    res.json(produtos);
+})
+
 
 
 router.post('/', (req, res) => {
